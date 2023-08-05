@@ -1,0 +1,84 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    font-size: 12px;
+}
+
+/*_____ HEADER _____*/
+
+header {
+    background-color: #EAC926;
+    padding: 5%;
+}
+
+.logo {
+    width: 50%;
+}
+
+#lupa {
+    background-color: white;
+    border: 1px black solid;
+    text-align: center;
+}
+
+.pago {
+    text-align: center;
+}
+
+.navBar ul li {
+    list-style-type: none;
+}
+
+.navBar ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu {
+    color: white;
+    background-color: #1259c3;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+/*_____ MAIN _____*/
+
+.titulares {
+    font-size: 24px;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos,
+.descripciones {
+    font-size: 16px;
+}
+
+/*_____ FOOTER _____*/
+
+footer{
+    padding: 5%;
+}
+footer section{
+    padding: 5%;
+    text-align: center;
+}
+footer section i {
+    color: blue;
+    font-size: 30px;
+    padding: 10px;
+}
