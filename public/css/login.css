@@ -36,9 +36,16 @@ form div input {
     display: flex;
     justify-content: center;
 }
+
+.enviar:hover{
+    background-color: #0022AA;
+}
+.enviar:hover .enviarI{
+    background-color: #0022AA;
+}
 .enviar,
 .enviarI {
-    background-color: blue;
+    background-color: rgb(57, 57, 222);
     color: white;
     padding: 4px;
     width: 47%;
